@@ -1,4 +1,4 @@
-# OSINTScope Google Dorks
+# Google Dorks
 
 ## SYMBOLS
 
