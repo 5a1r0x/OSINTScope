@@ -34,6 +34,13 @@ It combines custom-built scripts, curated resources, and automation tools to hel
 
 ---
 
+## 🤖 Powered by AI 
+
+This project leverages the power of Artificial Intelligence to enhance OSINT capabilities, providing smarter and more efficient tools for information gathering and analysis.
+
+---
+
+
 ## 🚀 Getting Started
 
 Clone the repository:
