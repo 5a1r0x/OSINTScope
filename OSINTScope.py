@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
 """
-OSINTScope - 1.0
+OSINTScope
+Version: 1.0
 Developer: Syrox (5a1r0x)
 License: MIT
 Powered by AI
