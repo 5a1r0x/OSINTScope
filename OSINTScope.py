@@ -4,6 +4,7 @@
 OSINTScope - 1.0
 Developer: Syrox (5a1r0x)
 License: MIT
+Powered by AI
 """
 
 import webbrowser
