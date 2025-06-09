@@ -2,14 +2,14 @@
 
 ## SYMBOLS
 
-- `"` **Quotes** Search for exact phrases.  
-- `-` **Minus sign** Exclude terms from the search.  
-- `*` **Asterisk (wildcard)** Acts as a placeholder for any word(s).  
-- `OR` **Logical OR** Search for one term or another (must be uppercase).  
-- `()` **Parentheses** Group terms or operators to structure the query.  
-- `..` **Range operator** Search within a numeric range (e.g., dates, numbers).  
-- `@` **At symbol** Often used to search for email addresses or social handles.  
-- `\` **Escape character** Use before special characters to search them literally.  
+- `"` **Quotes**: Search for exact phrases.  
+- `-` **Minus sign**: Exclude terms from the search.  
+- `*` **Asterisk (wildcard)**: Acts as a placeholder for any word(s).  
+- `OR` **Logical OR**: Search for one term or another (must be uppercase).  
+- `()` **Parentheses**: Group terms or operators to structure the query.  
+- `..` **Range operator**: Search within a numeric range (e.g., dates, numbers).  
+- `@` **At symbol**: Often used to search for email addresses or social handles.  
+- `\` **Escape character**: Use before special characters to search them literally.  
 
 ## COMMON  
 - `site:` Restrict search to a specific site or domain  
