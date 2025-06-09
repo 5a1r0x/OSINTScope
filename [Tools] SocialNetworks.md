@@ -8,7 +8,7 @@
 - **AlvoChat =** `https://alvochat.com/whatsapp-link-generator.php`
 
 ---
-## 🐦‍⬛ Twitter (X)
+## 🐦‍⬛ Twitter X
 - **X =** `https://x.com/`
 - **XPro =** `https://pro.x.com/`
 - **Twitonomy =** `https://www.twitonomy.com/`
