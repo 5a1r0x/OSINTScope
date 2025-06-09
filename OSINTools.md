@@ -15,7 +15,7 @@
 
 
 ## 💲Payment
-- **OSINT Industries =** `https://www.osint.industries/`
+- **OSINTIndustries =** `https://www.osint.industries/`
 - **Skopenow =** `https://www.skopenow.com/`
 - **DarkOwl =** `https://www.darkowl.com/`
 - **RecordedFuture =** `https://www.recordedfuture.com/`
