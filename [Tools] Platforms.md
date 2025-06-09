@@ -19,7 +19,6 @@
 - **InstantUsername =** `https://instantusername.com/`
 - **NameCheckUp =** `https://namecheckup.com/`
 - **GHunt =** `https://github.com/mxrch/GHunt`
-- **AwesomeOSINT =** `https://github.com/jivoi/awesome-osint`
 ---
 
 ## 🖼️ Images
