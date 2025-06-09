@@ -1,4 +1,4 @@
-# 🛜 Social Networks
+# [SN] Social Networks
 
 ## 💬 WhatsApp
 - **WhatsApp =** `https://whatsapp.com/`
