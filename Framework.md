@@ -2,7 +2,7 @@
 
 ### [https://osintframework.com/](https://osintframework.com/)
 
-## SERVICES
+## 🛎️ SERVICES
 - `Username`  
 - `Email Address`  
 - `Domain Name`  
