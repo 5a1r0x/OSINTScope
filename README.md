@@ -5,12 +5,11 @@ It combines custom-built scripts, curated resources, and automation tools to hel
 
 ---
 
-## 📂 Project Structure
+## ⚙️ Project Structure
 
-- **Python scripts** – Automation, parsing, and data extraction  
+- **Python script** – Automation, parsing, and data extraction  
 - **Shell utilities & helpers** – Lightweight tools to support reconnaissance workflows  
 - **Curated OSINT resources** – Links, platforms, and investigation techniques  
-- **Data templates & JSON files** – For structuring and managing collected intelligence  
 - **Documentation** – Guides and examples for beginners and advanced users  
 
 ---
@@ -25,9 +24,9 @@ It combines custom-built scripts, curated resources, and automation tools to hel
 
 ---
 
-## 🛠 Who Is This For?
+## ❓ Who Is This For
 
-- CyberSecurity students and self-learners  
+- CyberSecurity students and Self-Learners  
 - Ethical Hackers and Red Teamers  
 - Threat Intelligence Analysts  
 - Journalists and Digital Investigators  
