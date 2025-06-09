@@ -1,6 +1,6 @@
 # OSINT Tools
 
-## 🎨 Free
+## Free
 
 - **Epieos =** `https://epieos.com/`
 - **HaveIBeenPwned =** `https://haveibeenpwned.com/`
@@ -14,7 +14,7 @@
 - **AwesomeOSINT =** `https://github.com/jivoi/awesome-osint`
 
 
-## 💲Payment
+## Payment
 - **OSINTIndustries =** `https://www.osint.industries/`
 - **Skopenow =** `https://www.skopenow.com/`
 - **DarkOwl =** `https://www.darkowl.com/`
