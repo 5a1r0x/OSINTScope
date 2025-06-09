@@ -30,18 +30,50 @@ parser = argparse.ArgumentParser(
     epilog="use ethically and responsibly"
 )
 # Arguments
-parser.add_argument('-gd', '--googledorks', help='google dorks, hacking', nargs=1, type=str, required=False)
+parser.add_argument('-t', '--tools', help='available tools', action='store_true', required=False)
 parser.add_argument('-of', '--osintframework', help='osint framework', action='store_true', required=False)
-parser.add_argument('-ot', '--osintools', help='osint tools', action='store_true', required=False)
 parser.add_argument('-gh', '--github', help='github information', action='store_true', required=False)
+parser.add_argument('-gd', '--googledorks', help='google dorks, hacking', nargs="?", type=str, required=False)
 
 # Args
 args = parser.parse_args()
 
+# Tools
+def tools():
+    tools_platforms = [
+        "Domain",
+        "Email",
+        "IP Address",
+        "Images",
+        "Username",
+        "Videos"
+    ]
+
+    tool_social_networks = [
+        "WhatsApp",
+        "Twitter X",
+        "TikTok",
+        "Reddit",
+        "LinkedIn",
+        "Instagram",
+        "Facebook"
+    ]
+
+    print(f"[{magenta}#{reset}] {magenta}REPORT{reset}")
+    print(f"[{cyan}@{reset}] {cyan}PLATFORMS{reset}")
+
+    for tool in tools_platforms:
+        print(f"[{green}+{reset}] {tool}")
+
+    print(f"[{cyan}@{reset}] {cyan}SOCIAL NETWORKS{reset}")
+
+    for tool in tool_social_networks:
+        print(f"[{green}+{reset}] {tool}")
+
 # Google Dorks
 def googledorks():
     """Google Dorks, Hacking"""
-    dorks = args.googledorks[0]
+    dorks = args.googledorks
     query = urllib.parse.quote_plus(f"{dorks}")
     try:
         webbrowser.open_new(f"https://www.google.com/search?q={query}")
@@ -90,47 +122,12 @@ def osintframework():
         "Documentation / Evidence Capture",
         "Training",
     ]
-    
+
     try:
         print(f"[{magenta}#{reset}] {magenta}REPORT{reset}")
         print(f"[{cyan}@{reset}] Website: {cyan}{website}{reset}")
         for framework in frameworks:
             print(f"[{green}+{reset}] {framework}")
-    except Exception as e:
-        print(f"{red}[E] {e}{reset}")
-
-# OSINT Tools
-def osintools():
-    """Osint Tools"""
-    free_tools = [
-        "Epieos = https://epieos.com/",
-        "HaveIBeenPwned = https://haveibeenpwned.com/",
-        "DeHashed = https://app.dehashed.com/",
-        "Maltego = https://www.maltego.com/",
-        "Spiderfoot = https://www.kali.org/tools/spiderfoot/",
-        "TheHarvester = https://www.kali.org/tools/theharvester/",
-        "WaybackMachine = https://web.archive.org/",
-        "DNSDumpster = https://dnsdumpster.com/",
-        "GHunt = https://github.com/mxrch/GHunt",
-        "AwesomeOSINT = https://github.com/jivoi/awesome-osint"
-    ]
-    payment_tools = [
-        "OSINT Industries = https://www.osint.industries/",
-        "Skopenow = https://www.skopenow.com/",
-        "DarkOwl = https://www.darkowl.com/",
-        "RecordedFuture = https://www.recordedfuture.com/",
-        "DigitalStakeout = https://www.digitalstakeout.com/",
-        "ShadowDragon = https://shadowdragon.io/"
-    ]
-    
-    try:
-        print(f"[{magenta}#{reset}] {magenta}REPORT{reset}")
-        print(f"[{cyan}@{reset}] Free{cyan}{reset}")
-        for tool in free_tools:
-            print(f"[{green}+{reset}] {tool}")
-        print(f"[{cyan}@{reset}] Payment{cyan}{reset}")
-        for tool in payment_tools:
-            print(f"[{green}+{reset}] {tool}")
     except Exception as e:
         print(f"{red}[E] {e}{reset}")
 
@@ -141,21 +138,21 @@ def github():
     print(f"[{magenta}#{reset}] {magenta}REPORT{reset}")
     print(f"[{cyan}@{reset}] Name: {cyan}OSINTScope{reset}")
     print(f"[{cyan}@{reset}] Repository: {cyan}https://github.com/5a1r0x/OSINTScope{reset}")
-    print(f"[{cyan}@{reset}] Public: {green}Yes{reset}") if r.ok else print(f"[{cyan}@{reset}] Public: {red}No{reset}")
     print(f"[{cyan}@{reset}] HTTPS: {cyan}https://github.com/5a1r0x/OSINTScope.git{reset}")
     print(f"[{cyan}@{reset}] CLI: {cyan}gh repo clone 5a1r0x/OSINTScope{reset}")
     print(f"[{cyan}@{reset}] Developer: {cyan}5a1r0x{reset}")
     print(f"[{cyan}@{reset}] Version: {cyan}1.0{reset}")
+    print(f"[{cyan}@{reset}] Public: {green}Yes{reset}") if r.ok else print(f"[{cyan}@{reset}] Public: {red}No{reset}")
 
 # OSINT Scope
 def osintscope():
     """OSINTScope Main"""
+    if args.tools:
+        tools()
     if args.googledorks:
         googledorks()
     if args.osintframework:
         osintframework()
-    if args.osintools:
-        osintools()
     if args.github:
         github()
 # Run
