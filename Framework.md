@@ -1,4 +1,4 @@
-# OSINT Framework
+# [F] Framework
 
 ### [https://osintframework.com/](https://osintframework.com/)
 
