@@ -1,6 +1,6 @@
-# Google Dorks
+# [G] Google Dorks
 
-## SYMBOLS
+## 🔣 SYMBOLS
 
 - `"` **Quotes**: Search for exact phrases.  
 - `-` **Minus sign**: Exclude terms from the search.  
@@ -11,7 +11,7 @@
 - `@` **At symbol**: Often used to search for email addresses or social handles.  
 - `\` **Escape character**: Use before special characters to search them literally.  
 
-## COMMON  
+## 🚦 COMMON  
 - `site:` Restrict search to a specific site or domain  
 - `intitle:` Search for words in the page title  
 - `allintitle:` All words must be in the title  
@@ -25,7 +25,7 @@
 - `related:` Find sites similar to a URL  
 - `define:` Find definitions of a term  
 
-## SENSITIVE DATA 
+## 🔐 SENSITIVE DATA 
 - `filetype:pdf confidential` Search PDFs containing the word "confidential"  
 - `filetype:xls intext:username password` Excel files containing username and password  
 - `ext:cfg` Configuration files  
@@ -44,7 +44,7 @@
 - `inurl:credentials.json` Credentials files  
 - `filetype:xml intext:password` XML files containing passwords  
 
-## ACCESS PORTALS  
+## 🚧 ACCESS PORTALS  
 - `intitle:"login"` Login pages  
 - `intitle:"admin login"` Admin login pages  
 - `inurl:admin` URLs containing "admin"  
@@ -60,7 +60,7 @@
 - `intitle:"sign in"` Sign in pages  
 - `inurl:/user/login` User login URLs  
 
-## ACCESSIBLE DIRECTORIES, FILE  
+## 🗂️ ACCESSIBLE DIRECTORIES, FILE  
 - `intitle:"index of" inurl:ftp` Open FTP directories  
 - `intitle:"index of" backup` Backup folders indexed  
 - `intitle:"index of" db.sql` Indexed database dump files  
@@ -75,7 +75,7 @@
 - `intitle:"index of" .bash_history` Bash history files  
 - `intitle:"index of" config` Config files indexed  
 
-## NETWORKS, DEVICES EXPOSED  
+## 🌐 NETWORKS, DEVICES EXPOSED  
 - `intitle:"webcamXP 5"` WebcamXP software devices  
 - `inurl:8080 intitle:"Router"` Routers on port 8080  
 - `intitle:"DVR login"` Digital Video Recorder login pages  
@@ -88,7 +88,7 @@
 - `inurl:/view/index.shtml` Camera views or device panels  
 - `inurl:8080 intitle:"Netgear router"` Netgear routers on port 8080  
 
-## FOOTPRINTING  
+## 👣 FOOTPRINTING  
 - `site:example.com -www` Search a domain excluding www  
 - `filetype:pdf site:example.com` PDFs on a domain  
 - `site:example.com "@example.com"` Emails on the domain  
@@ -101,7 +101,7 @@
 - `site:example.com ext:xml` XML files on a domain  
 - `intext:"powered by phpBB" site:example.com` phpBB powered sites  
 
-## DEBUG, ERROR MESSAGES  
+## 🚩 DEBUG, ERROR MESSAGES  
 - `intext:"Warning: mysql_fetch"` MySQL warnings  
 - `intext:"You have an error in your SQL syntax"` SQL syntax errors  
 - `intext:"PHP Parse error"` PHP parsing errors  
