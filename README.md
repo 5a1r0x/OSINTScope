@@ -7,11 +7,11 @@ It combines custom-built scripts, curated resources, and automation tools to hel
 
 ## 📂 Project Structure
 
-- 🐍 **Python scripts** – Automation, parsing, and data extraction  
-- 🧰 **Shell utilities & helpers** – Lightweight tools to support reconnaissance workflows  
-- 🌐 **Curated OSINT resources** – Links, platforms, and investigation techniques  
-- 🗂️ **Data templates & JSON files** – For structuring and managing collected intelligence  
-- 📖 **Documentation** – Guides and examples for beginners and advanced users  
+- **Python scripts** – Automation, parsing, and data extraction  
+- **Shell utilities & helpers** – Lightweight tools to support reconnaissance workflows  
+- **Curated OSINT resources** – Links, platforms, and investigation techniques  
+- **Data templates & JSON files** – For structuring and managing collected intelligence  
+- **Documentation** – Guides and examples for beginners and advanced users  
 
 ---
 
@@ -27,10 +27,10 @@ It combines custom-built scripts, curated resources, and automation tools to hel
 
 ## 🛠 Who Is This For?
 
-- Cybersecurity students and self-learners  
-- Ethical hackers and red teamers  
-- Threat intelligence analysts  
-- Journalists and digital investigators  
+- CyberSecurity students and self-learners  
+- Ethical Hackers and Red Teamers  
+- Threat Intelligence Analysts  
+- Journalists and Digital Investigators  
 
 ---
 
@@ -42,8 +42,6 @@ This project leverages the power of Artificial Intelligence to enhance OSINT cap
 
 
 ## 🚀 Getting Started
-
-Clone the repository:
 
 ```bash
 git clone https://github.com/5a1r0x/osint-scope.git
