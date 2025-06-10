@@ -48,5 +48,3 @@ This project leverages the power of Artificial Intelligence to enhance OSINT cap
 ```bash
 git clone https://github.com/5a1r0x/OSINTScope.git
 cd OSINTScope
-chmod +x install.sh
-./install.sh
