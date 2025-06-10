@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="OSINTScope Logo" width="200"/>
+  <img src="OSINTScope - Logo.png" alt="OSINTScope Logo" width="200"/>
 </p>
 
 # OSINT Scope
