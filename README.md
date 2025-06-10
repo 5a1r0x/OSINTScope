@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="OSINTScope Logo" width="200"/>
+</p>
+
 # OSINT Scope
 
 **OSINT Scope** is a modern and extensible toolkit for Open Source Intelligence Gathering.  
@@ -39,9 +43,10 @@ This project leverages the power of Artificial Intelligence to enhance OSINT cap
 
 ---
 
-
 ## 🚀 Getting Started
 
 ```bash
 git clone https://github.com/5a1r0x/OSINTScope.git
 cd OSINTScope
+chmod +x install.sh
+./install.sh
