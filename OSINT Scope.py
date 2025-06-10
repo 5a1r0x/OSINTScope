@@ -155,6 +155,7 @@ def osintscope():
         osintframework()
     if args.github:
         github()
+
 # Run
 if __name__ == "__main__":
     osintscope()
