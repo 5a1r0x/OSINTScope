@@ -2,10 +2,10 @@
   <img src="OSINTScope - Logo.png" alt="OSINTScope Logo" width="200"/>
 </p>
 
-# OSINT Scope
+# <p align="center">OSINT SCOPE</p>
 
-**OSINT Scope** is a modern and extensible toolkit for Open Source Intelligence Gathering.  
-It combines custom-built scripts, curated resources, and automation tools to help analysts, ethical hackers, and researchers collect and process publicly available information effectively.
+<p align="center"><strong>OSINT Scope</strong> is a modern and extensible toolkit for Open Source Intelligence Gathering.  
+It combines custom-built scripts, curated resources, and automation tools to help analysts, ethical hackers, and researchers collect and process publicly available information effectively.</p>
 
 ---
 
