@@ -43,5 +43,5 @@ This project leverages the power of Artificial Intelligence to enhance OSINT cap
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/5a1r0x/osint-scope.git
-cd osint-scope
+https://github.com/5a1r0x/OSINTScope.git
+cd OSINTScope
